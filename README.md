@@ -1,7 +1,7 @@
 JavaScript-Cookie
 =================
 
-JavasCript Cookie
+JavaScript Cookie
 
 
 

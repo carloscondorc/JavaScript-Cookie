@@ -1,4 +1,4 @@
-JavasCript-Cookie
+JavaScript-Cookie
 =================
 
 JavasCript Cookie

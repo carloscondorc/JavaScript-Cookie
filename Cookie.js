@@ -36,11 +36,11 @@ var Cookie = function (name, value, days) {
 			while (c[i].charAt(0) == ' ') c[i] = c[i].substring(1, c[i].length);
 			if (c[i].indexOf(this.name + "=") == 0) return c[i].substring((this.name + "=").length, c[i].length);
 		}
-		return null;
+		return '';
 	}
 	
 	// Remove cookie
-	this.remove = function () { this.set(null, -1); }
+	this.remove = function () { this.set('', -1); }
 	
 	// Check is cookie exists
 	this.check = function () { return !!this.get(); }
